@@ -46,6 +46,11 @@ main header {
 	color: gray;
 }
 
+.gitcoin_icon {
+	width:20px;
+	padding: 3px;
+}
+
 main header > h1 {
 	color: #464646;
 	font-weight: 800;
@@ -133,8 +138,8 @@ main .icon-list {
 main .icon-list > li {
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
-	border-width: 2px;
-	border-style: solid;
+	/* border-width: 2px;
+	border-style: solid; */
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1em;
@@ -169,6 +174,16 @@ main .icon-list > li.twitter:hover {
 	background: #1da1f2;
 }
 
+main .icon-list > li.gitcoin {
+	border-color: #4bc97a;
+	color: #4bc97a;
+}
+
+main .icon-list > li.gitcoin:hover {
+	background: #4bc97a;
+}
+
+
 main .icon-list > li.linkedin {
 	border-color: #0976b4;
 	color: #0976b4;
@@ -176,15 +191,6 @@ main .icon-list > li.linkedin {
 
 main .icon-list > li.linkedin:hover {
 	background: #0976b4;
-}
-
-.icon-list > li.quora {
-	border-color: #a62100;
-	color: #a62100;
-}
-
-main .icon-list > li.quora:hover {
-	background: #a62100;
 }
 
 main .icon-list > li.facebook {
@@ -214,15 +220,6 @@ main .icon-list > li.github:hover {
 	background: #767676;
 }
 
-main .icon-list > li.youtube {
-	border-color: #c4302b;
-	color: #c4302b;
-}
-
-main .icon-list > li.youtube:hover {
-	background: #c4302b;
-}
-
 main .icon-list > li.email {
 	border-color: #777;
 	color: #777;
@@ -232,14 +229,14 @@ main .icon-list > li.email:hover {
 	background: #777;
 }
 
-main .icon-list > li.stack {
-	border-color: #FF9900;
-	color: #FF9900
+main .icon-list > li.reddit {
+	border-color: #f9493f;
+	color: #f9493f
 ;
 }
 
-main .icon-list > li.stack:hover {
-	background: #FF9900
+main .icon-list > li.reddit:hover {
+	background: #f9493f
 ;
 }
 
@@ -255,7 +252,7 @@ main .icon-list li:hover {
 }
 
 main footer {
-	color: #999;
+	color: #000000;
 	font-size: 0.75em;
 	margin-top: 10px;
 	opacity: 0;
