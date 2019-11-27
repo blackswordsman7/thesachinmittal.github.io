@@ -241,8 +241,8 @@ main .icon-list > li.reddit:hover {
 }
 
 main .icon-list li > a,
-main .icon-list li > a: visited,
-main .icon-list li > a: active
+main .icon-list li > a visited,
+main .icon-list li > a active
 {
 	color: white;
 }
