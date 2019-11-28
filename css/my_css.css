@@ -46,11 +46,6 @@ main header {
 	color: gray;
 }
 
-.gitcoin_icon {
-	width:20px;
-	padding: 3px;
-}
-
 main header > h1 {
 	color: #464646;
 	font-weight: 800;
@@ -138,8 +133,8 @@ main .icon-list {
 main .icon-list > li {
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
-	/* border-width: 2px;
-	border-style: solid; */
+	border-width: 2px;
+	border-style: solid;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 1em;
@@ -163,6 +158,11 @@ main .icon-list > li a {
 
 main .icon-list > li:hover > a {
 	color: white;
+}
+
+.gitcoin_icon {
+	width: 20px;
+	padding: 3px;
 }
 
 main .icon-list > li.twitter {
@@ -208,7 +208,7 @@ main .icon-list > li.instagram {
 }
 
 main .icon-list > li.instagram:hover {
-	background: #e95950;
+	background: #8a3ab9;
 }
 
 main .icon-list > li.github {
